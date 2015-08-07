@@ -108,6 +108,10 @@ header img {
 .fantasy {
     color: #ff00ff;
 }
+.fantasytext {
+    color: #ff00ff;
+	
+}
 header .intro-text .name {
     color: #FFFF00;
     display: block;
