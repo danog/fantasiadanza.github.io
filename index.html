@@ -633,7 +633,11 @@
     <!-- Fitvids -->
     <script src="js/jquery.fitvids.js"></script>
     <script>
-        $(".vids").fitVids();
+	
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $(".vids").fitVids();
+    });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
