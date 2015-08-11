@@ -30,6 +30,9 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
+    <script type="text/javascript" src="sha512.js"></script>
+    <script type="text/javascript" src="forms.js"></script>
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
  
@@ -93,7 +96,7 @@
 
                     </li>
                     <li class="page-scroll">
-                        <a href="https://scuola.fantasiadanzarovigo.com">Iscrizioni</a>
+                        <a href="#iscrizioni">Iscrizioni</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contatti</a>
@@ -310,7 +313,36 @@
     </section>
 
 
-
+    <!-- Sezione iscrizioni -->
+    
+    <section id="iscrizioni">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="intro-text">
+                        <h2><span class="eventi">Iscrizioni</span></h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form action="https://scuola.fantasiadanzarovigo.com/process_login.php" method="post" name="login_form" id="login">
+                        <fieldset id="inputs">
+                            <input type="text" name="username"  placeholder="Nome utente"/><br />
+                            <input type="password" name="p" id="password" placeholder="Password" /><br />
+                        </fieldset>
+                        <fieldset id="actions">
+                            <input type="button" value="Login" id="submitb" onclick="formhash(this.form, this.form.password);" />
+                        </fieldset>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
