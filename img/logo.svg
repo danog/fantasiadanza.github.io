@@ -22,10 +22,12 @@
 	.st16{fill:none;}
 	.st17{fill:#BE16DB;}
 	.st18{font-family:'Vivian';}
-	.st19{font-size:31px;}
+	.st19{font-size:27px;}
 	.st20{fill:#FF00FF;}
-	.st21{font-size:25px;}
+	.st21{font-size:23px;}
 	.st22{font-family:'MyriadPro-Regular';}
+	.st23{fill:#203B8F;}
+	.st24{font-size:35.5818px;}
 </style>
 <g>
 	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="212.6595" y1="174.8108" x2="249.79" y2="174.8108">
@@ -162,5 +164,6 @@
 	<path class="st15" d="M188.8,390.7c0,0-34.2,18.2-8.9,33.7c55,33.7,125.9,5.3,125.9,5.3S167.5,438.6,188.8,390.7z"/>
 </g>
 <rect class="st16" width="374" height="768.5"/>
-<text transform="matrix(1 0 0 1 36.043 23.0635)"><tspan x="0" y="0" class="st17 st18 st19">DANZA FANTASY</tspan><tspan x="-36" y="30" class="st20 st18 st21">Uno stile che</tspan><tspan x="-36" y="60" class="st20 st18 st21">comprende lo studio di</tspan><tspan x="-36" y="90" class="st20 st18 st21">vari stili di danza</tspan><tspan x="-36" y="120" class="st20 st18 st21">in maniera più</tspan><tspan x="-36" y="150" class="st20 st18 st21">approfondita.</tspan><tspan x="-36" y="180" class="st20 st18 st21">L</tspan><tspan x="-17.9" y="180" class="st20 st22 st21">&apos;</tspan><tspan x="-13.2" y="180" class="st20 st18 st21">obbiettivo</tspan><tspan x="-36" y="210" class="st20 st18 st21">di questo</tspan><tspan x="-36" y="270" class="st20 st18 st21">corso è</tspan><tspan x="-36" y="300" class="st20 st18 st21">viaggiare,</tspan><tspan x="-36" y="330" class="st20 st18 st21">imparare e</tspan><tspan x="-36" y="360" class="st20 st18 st21">vivere la gioia</tspan><tspan x="-36" y="390" class="st20 st18 st21">di danzare</tspan><tspan x="-36" y="420" class="st20 st18 st21">e condividere </tspan><tspan x="-36" y="450" class="st20 st18 st21">un palcoscenico</tspan><tspan x="-36" y="480" class="st20 st18 st21">nazionale con</tspan><tspan x="-36" y="510" class="st20 st18 st21">altri giovani</tspan><tspan x="-36" y="540" class="st20 st18 st21">ballerini come</tspan><tspan x="-36" y="570" class="st20 st18 st21">noi.</tspan></text>
+<text transform="matrix(1 0 0 1 55.5225 20.0879)"><tspan x="0" y="0" class="st17 st18 st19">DANZA FANTASY</tspan><tspan x="-55.5" y="27.6" class="st20 st18 st21">Uno stile che comprende lo </tspan><tspan x="-55.5" y="55.2" class="st20 st18 st21">studio di vari stili di danza</tspan><tspan x="-55.5" y="82.8" class="st20 st18 st21">in maniera più approfondita.</tspan><tspan x="-55.5" y="110.4" class="st20 st18 st21">L</tspan><tspan x="-38.8" y="110.4" class="st20 st22 st21">&apos;</tspan><tspan x="-34.5" y="110.4" class="st20 st18 st21">obbiettivo di questo</tspan><tspan x="-55.5" y="138" class="st20 st18 st21">corso è viaggiare,</tspan><tspan x="-55.5" y="165.6" class="st20 st18 st21">imparare e vivere</tspan><tspan x="-55.5" y="193.2" class="st20 st18 st21">la gioia di danzare</tspan><tspan x="-55.5" y="276" class="st20 st18 st21">e condividere </tspan><tspan x="-55.5" y="303.6" class="st20 st18 st21">un palcoscenico</tspan><tspan x="-55.5" y="331.2" class="st20 st18 st21">nazionale con</tspan><tspan x="-55.5" y="358.8" class="st20 st18 st21">altri giovani</tspan><tspan x="-55.5" y="386.4" class="st20 st18 st21">ballerini</tspan><tspan x="-55.5" y="414" class="st20 st18 st21">come noi.</tspan></text>
+<text transform="matrix(0.7704 0 0 1 78.1685 591.6567)"><tspan x="0" y="0" class="st23 st18 st24">Orario:</tspan><tspan x="-3.3" y="42.7" class="st23 st18 st24">Lunedì,</tspan><tspan x="-101.5" y="85.4" class="st23 st18 st24">Martedì e Giovedì</tspan><tspan x="-30.7" y="128.1" class="st23 st18 st24">alle 18:00</tspan></text>
 </svg>
