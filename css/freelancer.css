@@ -72,7 +72,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #FF0066;
-    background-image: url(img/rainbow.png);
+    background-image: url('https://fantasiadanzarovigo.com/img/rainbow.png');
     background-size: cover;
 
 }
