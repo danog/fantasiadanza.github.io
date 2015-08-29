@@ -22,7 +22,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://s1.fantasiadanzarovigo.com/mail/contact_me.php",
+                url: "http://mail.daniil.it/",
                 type: "POST",
                 data: {
                     name: name,
