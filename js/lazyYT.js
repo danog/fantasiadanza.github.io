@@ -103,7 +103,7 @@
           });
 
         $.getJSON('https://www.googleapis.com/youtube/v3/videos?part=snippet&id=' + id + '&key=AIzaSyAv6r36iJPt4sK0xaI69A0yRFq0qmxw9ak', function (data) {
-            $el.find('#lazyYT-title-' + id).text(data.entry.title.$t);
+            $el.find('#lazyYT-title-' + id).text(data.snippet.title.$t);
         });
 
     }
