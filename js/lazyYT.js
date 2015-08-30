@@ -102,9 +102,9 @@
             }
           });
 
-        $.getJSON('https://www.googleapis.com/youtube/v3/videos?part=snippet&id=' + id + '&key=AIzaSyAv6r36iJPt4sK0xaI69A0yRFq0qmxw9ak', function (data) {
-            $el.find('#lazyYT-title-' + id).text(data.items.snippet.title.$t);
-            console.log(data);
+        $.getJSON('https://www.googleapis.com/youtube/v3/videos?id=' + id + '&key=AIzaSyAv6r36iJPt4sK0xaI69A0yRFq0qmxw9ak&fields=items(snippet(title))&part=snippet', function (data) {
+            $el.find('#lazyYT-title-' + id).text(data.items[0].snippet.title);
+            console.log(data+"ie data");
         });
 
     }
