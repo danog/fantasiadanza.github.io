@@ -512,3 +512,7 @@ footer .footer-below {
 hr.yellow {
     background-color: #FFFF00;
 }
+
+.scrolloff {
+    pointer-events: none;
+}
