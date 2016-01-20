@@ -513,6 +513,6 @@ hr.yellow {
     background-color: #FFFF00;
 }
 
-.scrolloff {
+.scrolloff iframe {
     pointer-events: none;
 }
