@@ -116,7 +116,7 @@ header img {
 .fantasy {
     color: #ff00ff;
 }
-header .intro-text .name .vivian {
+header .intro-text .name {
     color: #9900CC;
     display: block;
     text-transform: uppercase;
@@ -532,10 +532,10 @@ hr.yellow {
 }
 
 
-.vivian * {
+.vivian {
     font-family: Vivian;
 }
 
-.candal * {
+.candal {
     font-family: 'Candal', sans-serif;
 }
