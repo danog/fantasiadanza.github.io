@@ -52,12 +52,12 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\A0\A0\A0\A0";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: Vivian;
     font-size: 2em;
 }
 
@@ -78,6 +78,10 @@ hr.star-primary:after {
     color: #FF0066;
     background-image: url('https://fantasiadanzarovigo.com/img/rainbow.png');
     background-size: cover;
+      -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: none;
 
 }
 
