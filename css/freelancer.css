@@ -491,7 +491,7 @@ footer .footer-below {
 #portfolio { background-color: #FF33CC; }
 #about { background-color: #0000FF; }
 #contact { background-color: #FFCCFF; }
-.daniil a { color: #FFFF00; }
+.daniil a { color: #FFFF00 !important; }
 .giallo {
     color: #0000CC;
     font-size: xx-large;
