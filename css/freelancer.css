@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #0033cc;
-    background-color: #f200ff;
+    background-color: #fa99ff;
 }
 
 hr.star-primary {
@@ -84,7 +84,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #f200ff;
+    background: #fa99ff;
 }
 
 header .container {
@@ -515,4 +515,16 @@ hr.yellow {
 
 .scrolloff iframe {
     pointer-events: none;
+}
+.white a {
+    color: #ffffff;
+}
+
+    @font-face {
+        font-family: Vivian;
+        src: url(/fonts/vivian.regular.ttf);
+        font-weight: bold;
+    }
+.vivian * {
+    font-family: Vivian;
 }
