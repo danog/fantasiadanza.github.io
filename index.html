@@ -45,6 +45,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
         <link href="css/freelancer.css?v=new" rel="stylesheet">
+        <link href="css/interdimensional.css" rel="stylesheet">
         <link rel="stylesheet" href="css/lazyYT.css">
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -63,10 +64,18 @@
         <script src="js/jquery.min.js"></script>
         <!-- Fitvids -->
         <script src="js/lazyYT.js?v=43"></script>
+        <script src="js/interdimensional.min.js?v=43"></script>
+        <script src="js/jquery.shorten.min.js?v=43"></script>
+
         <script>
             $(document).ready(function(){
                 // Target your .container, .wrapper, .post, etc.
                 $(".vids").lazyYT();
+            });
+            $(".riduci").shorten({
+                moreText: 'Pi&ugrave;',
+                lessText: 'Restringi',
+                showChars: 12,
             });
             $(".scrolloff").click(function () {
                 $(".scrolloff iframe").css("pointer-events", "auto");
@@ -158,13 +167,13 @@
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="candal" style="color: #ff66ff;"  href="#">Corso Baby</a>
+                                            <a class="candal" style="color: #ff66ff;"  href="#corsobaby">Corso Baby</a>
                                         </li>
                                         <li>
-                                            <a class="candal" style="color: #ff66ff;"  href="#">Corso Baby Fantasy</a>
+                                            <a class="candal" style="color: #ff66ff;"  href="#corsobabyfantasy">Corso Baby Fantasy</a>
                                         </li>
                                         <li>
-                                            <a class="candal" style="color: #ff66ff;"  href="#">Corso Fantasy</a>
+                                            <a class="candal" style="color: #ff66ff;"  href="#corsofantasy">Corso Fantasy</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -242,9 +251,11 @@
                             <h3 class="eventi">BIMBI / KIDS</h3>
                             <div class="skills">Questa sezione riguarda lo studio della danza per bambini (3-10 anni).</div>
                             <hr class="star-primary">
-                            <div class="vivian" style="color: #9900CC; font-size: 110%;">corso BABY</div>
+                            <div class="vivian" style="color: #9900CC; font-size: 110%;" id="corsobaby">corso BABY</div>
                             <div class="skills">Corso per bambini da 3 a 5 anni.
-                                <br>Studio della danza, della musica, del ritmo, allenamento attraverso il gioco.
+                                <br>Studio della danza, della musica, del ritmo, allenamento attraverso il gioco.<br>
+                                <div class="riduci">PROGRAMMA...<br>Programmasnafdj</div><br>
+                                <div class="riduci">ORARIO...   <br>Orario dfhdsbjb</div>
                             </div>
                             <br>
                             <div class="vids" data-ratio="16:9" data-youtube-id="AOizMRdYJsc"></div>
