@@ -493,7 +493,9 @@ footer .footer-below {
 #where { background-color: #FFFF99; }
 #corsi { background-color: #ffccff; }
 #portfolio { background-color: #FF33CC; }
-#about { background-color: #0000FF; }
+#about { background-color: rgb(230, 230, 255); }
+#scuola { background-color: #FFCCFF; }
+
 #contact { background-color: #FFCCFF; }
 .daniil a { color: #FFFF00 !important; }
 .giallo {
