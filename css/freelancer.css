@@ -427,6 +427,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
+    padding: 100px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -466,7 +467,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 25px;
+    height: 75px;
     margin-left: 35px;
     background-color: #9900CC;
     -webkit-transform: rotate(45deg);
@@ -477,7 +478,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 25px;
+    height: 75px;
     background-color: #9900CC;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
