@@ -1,5 +1,5 @@
 $(function() {
-    var forms = ["corsobaby", "corsobabyfantasy", "corsofantasy", "corsokidmom", "danzaclassica", "corsofun", "corsomoderno", "zumba", "step", "fitnessmusicale", "fitnessorientale", "pilates"]
+    var forms = ["corsobaby", "corsobabyfantasy", "corsofantasy", "corsokidmom", "danzaclassica", "corsofun", "corsomoderno", "zumba", "step", "fitnessmusicale", "fitnessorientale", "pilates", "zumbatango"]
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
