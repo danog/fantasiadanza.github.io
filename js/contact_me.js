@@ -89,7 +89,6 @@ $(function() {
                 // get values from FORM
                 var name = $("input#name"+value).val();
                 var email = $("input#email"+value).val();
-                var phone = $("input#phone"+value).val();
                 var message = $("textarea#message"+value).val();
                 var domain = "6";
                 var fromform = value;
@@ -103,7 +102,6 @@ $(function() {
                     type: "POST",
                     data: {
                         name: name,
-                        phone: phone,
                         email: email,
                         message: message,
                         fromform: fromform,
