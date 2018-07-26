@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "name": "Fantasia Danza Rovigo",
+    "description": "Danza Fantasy e Musical per bambini",
+    "icons": {
+        "60": "/favicons/firefox_app_60x60.png",
+        "128": "/favicons/firefox_app_128x128.png"
+    },
+    "developer": {
+        "name": "Daniil Gentili",
+        "url": "https://daniil.it"
+    }
+}
