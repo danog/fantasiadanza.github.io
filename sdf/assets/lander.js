@@ -53,7 +53,7 @@ function ouibounce(e, t) {
 }
 
 function evsfix() {
-  $("iframe[src^='http://player.vimeo.com'], iframe[src^='http://www.youtube.com'], object, embed").each(function() {
+  $("iframe[src^='https://player.vimeo.com'], iframe[src^='https://www.youtube.com'], object, embed").each(function() {
       try {
           var e;
           if (el = this, h = el.height, w = el.width, "" !== h && "100%" != h || (h = 9), "" !== w && "100%" != w || (w = 16), ratio = h / w, $(el).attr("data-aspectRatio", h / w).removeAttr("height").removeAttr("width"), 0 == (e = $(el).parent().width())) 0 == (e = $(el).parent().parent().parent().width()) && (e = 600);
@@ -24223,7 +24223,7 @@ $(document).ready(AttachStripeElements),
                       })
                   },
                   r = document.createElement("script");
-              r.src = "http://www.youtube.com/iframe_api";
+              r.src = "https://www.youtube.com/iframe_api";
               var o = document.getElementsByTagName("script")[0];
               o.parentNode.insertBefore(r, o), e.fn.tubular = function(t) {
                   return this.each(function() {
