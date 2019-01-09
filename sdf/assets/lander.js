@@ -24277,7 +24277,7 @@ $(document).ready(AttachStripeElements),
                           var t = e.match(/^.+dailymotion.com\/(video|hub)\/([^_]+)[^#]*(#video=([^_&]+))?/);
                           return null !== t ? t[4] !== undefined ? t[4] : t[2] : null
                       },
-                      src: "http://www.dailymotion.com/embed/video/%id%"
+                      src: "https://www.dailymotion.com/embed/video/%id%"
                   },
                   wistia: {
                       index: "wistia.com",
