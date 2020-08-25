@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#9900cc",
-    "background_color": "#9900cc",
+    "theme_color": "#9696ea",
+    "background_color": "#9696ea",
     "display": "standalone"
 }
